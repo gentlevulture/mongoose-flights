@@ -3,16 +3,12 @@
   <%- include('../partials/nav') %>
 
     <main>
-      <h1> <%= title %></h1>
+      <h1>Flight Details</h1>
       <section>
-        <div>Airline: </div>
-        <div> <%= flight.airline%></div>
-        <div>Airport: </div>
-        <div><%= flight.airport %></div>
-        <div>Flight #: </div>
-        <div><%= flight.flightNo%></div>
-        <div>Departs: </div>
-        <div><%= flight.departs %></div>
+        <div>Airline: <%= flight.airline%></div>
+        <div>Airport: <%= flight.airport %></div>
+        <div>Flight #: <%= flight.flightNo%></div>
+        <div>Departs: <%= flight.departs %></div>
       </section>
       <h2>Tickets</h2>
       <div>
